@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@clerk/clerk-js/dist/clerk.css" />
+</head>
+<body>
+<div class="container">
+    <div class="todo-app">
+        <h2>ToDoodle<img src="images/icon.png"></h2>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Add Task">
+            <button>Add</button>
+        </div>
+        <ul id="list-container"></ul>
+    </div>
+</div>
+<div class="logout">
+    <button id="logout-button" onclick="logout()" aria-label="Logout">Logout</button>
+
+</div>
+<script type="module" src="script.js"></script>
+</body>
+</html>
